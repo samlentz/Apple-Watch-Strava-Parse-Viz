@@ -1,10 +1,10 @@
 # Apple-Watch-Strava-Parse-Viz
-This jupyter notebook script uses matplotlib to generate interesting visualizations of Bike/Run/Whatever data recorded by the Strava Apple Watch App
+This jupyter notebook script uses matplotlib to generate interesting visualizations of Bike/Run/Whatever data recorded by the Strava Apple Watch App. Map visualizations within jupyter notebook are zoomable 
 
 # Graphics generated
 <p align="center">
-  <img src="images/hr.png" width="450" title="Heart Rate Map">
-  <img src="images/speed.png" width="450" title="Speed Map">
+  <img src="images/hr.png" width="450" title="Interactive Heart Rate Map">
+  <img src="images/speed.png" width="450" title="Interactive Speed Map">
 </p>
 <p align="center">
   <img src="images/hrhist.png" width="450" title="Heart rate Histogram">
