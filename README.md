@@ -46,3 +46,5 @@ Note: Images of each graph will be saved as png's
 -Support Apple Fitness data
 
 -Incorporate more visualizations 
+
+-Add support for running through a python command line
