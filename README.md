@@ -1,5 +1,5 @@
 # Apple-Watch-Strava-Parse-Viz
-This jupyter notebook script uses matplotlib to generate interesting visualizations of a Bike/Run/Whatever recorded by the Strava Apple Watch App
+This jupyter notebook script uses matplotlib to generate interesting visualizations of Bike/Run/Whatever data recorded by the Strava Apple Watch App
 
 # Graphics generated
 <p align="center">
