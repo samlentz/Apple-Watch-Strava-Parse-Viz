@@ -21,7 +21,7 @@ class StravaParser:
         self.hrs = []
         self.elevations = []
         self.distances = []
-
+ 
 
     def appendEntry(self, lat=0, long=0, hr=0):
         self.lats.append(lat)
