@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="images/header.png" width="600" title="Interactive Heart Rate Map">
-</p>
 
 # Apple-Watch-Strava-Parse-Viz
 This jupyter notebook script uses matplotlib to generate interesting visualizations of Bike/Run/Whatever data recorded by the Strava Apple Watch App. Map visualizations within jupyter notebook are zoomable 
