@@ -47,7 +47,7 @@ savefiles = True / False Save images of each graph
 
 1. Use pip to install matplotlib and json5
 
-2. Run with stravaparse.py using parameters listed below
+2. Run with stravaparse.py using optional parameters listed below
 
 --file or -f filename.json
 
