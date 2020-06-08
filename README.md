@@ -51,4 +51,5 @@ savefiles = True / False Save images of each graph
 
 -Incorporate more visualizations 
 
--Add support for running through a python command line
+~-Add support for running through a python command line~ 
+ Thanks Zach, can now be run as .py python3
