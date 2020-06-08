@@ -29,7 +29,7 @@ class StravaParser:
         self.hrs.append(hr)
 
 
-    def findHR(self, hritems, timein=0):
+    def findHR(self, timein=0):
         for i in self.hritems:
             if i[0] >= timein:
                 return i[1]
