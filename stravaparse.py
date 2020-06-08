@@ -58,45 +58,44 @@ class StravaParser:
         for d in self.locitems:
             self.distances.append(d[8]*0.000621371)
 
-        # %matplotlib notebook
-        plt.close()
+        plt.figure(100)
         plt.title("Heart Rate (BPM)")
         plt.xticks([])
         plt.yticks([])
         plt.style.use('seaborn-notebook')
         plt.scatter(self.longs, self.lats, c=self.hrs, cmap='jet', s=self.dotsize)
         plt.colorbar()
-        plt.show()
+        #plt.show()
         if self.savefiles:
             plt.savefig('hr.png', dpi=250)
 
-        plt.close()
+        plt.figure(200)
         plt.title('Heart Rate Histogram')
         plt.xlabel('Heart Rate (bpm)')
         plt.hist(self.hrs, bins=30)
-        plt.show()
+        #plt.show()
         if self.savefiles:
             plt.savefig('hrhist.png', dpi=250)
 
-        plt.close()
+        plt.figure(300)
         plt.xticks([])
         plt.yticks([])
         plt.title("Speed (MPH)")
         plt.scatter(self.longs, self.lats, c=self.speeds, cmap='jet', s=self.dotsize)
         plt.colorbar()
-        plt.show()
+        #plt.show()
         if self.savefiles:
             plt.savefig('speed.png', dpi=250)
 
-        plt.close()
+        plt.figure(400)
         plt.hist(self.speeds, bins=30)
         plt.title('Speed Histogram')
         plt.xlabel('Speed (mph)')
-        plt.show()
+        #plt.show()
         if self.savefiles:
             plt.savefig('speedhist.png', dpi=250)
 
-        plt.close()
+        plt.figure(500)
         plt.plot(self.distances, self.elevations, lw=1, color='b')
         plt.ylabel('Elevation (Feet)')
         plt.xlabel('Miles Traveled')
@@ -105,7 +104,6 @@ class StravaParser:
         if self.savefiles:
             plt.savefig('ele.png', dpi=250)
 
-        plt.close()
 
 
 if __name__ == '__main__':
