@@ -64,10 +64,10 @@ class StravaParser:
         plt.xticks([])
         plt.yticks([])
         plt.style.use('seaborn-notebook')
-        plt.scatter(self.longs, self.lats, c=self.hrs, cmap='jet', s=dotsize)
+        plt.scatter(self.longs, self.lats, c=self.hrs, cmap='jet', s=self.dotsize)
         plt.colorbar()
         plt.show()
-        if savefiles:
+        if self.savefiles:
             plt.savefig('hr.png', dpi=250)
 
         plt.close()
