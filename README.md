@@ -43,9 +43,17 @@ dotsize = number  Change size of points on speed and heart rate map
 
 savefiles = True / False Save images of each graph
 
-<b> Option 2: as .py </b>
+<b> Option 2: Run through cmd </b>
 
-1.
+1. Use pip to install matplotlib and json5
+
+2. Run with parameters listed below
+
+--file or -f filename.json
+
+--nosave or -n to disable image save
+
+--dotsize or -d number to set dot plot size (default 10)
 
 # Future work
 
