@@ -48,13 +48,21 @@ savefiles = True / False Save images of each graph
 
 1. Use pip to install matplotlib and json5
 
-2. Run with stravaparse.py using optional parameters listed below
+```
+pip install matplotlib
+```
+
+2. Run stravaparse.py using optional parameters listed below
 
 --file or -f filename.json
 
 --nosave or -n to disable image save
 
 --dotsize or -d number to set dot plot size (default 10)
+
+ex:
+```
+python stravaparse.py -f cyclelog.json -n
 
 # Future work
 
