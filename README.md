@@ -61,7 +61,7 @@ pip install matplotlib
 --dotsize or -d number to set dot plot size (default 10)
 
 ex:
-```shel
+```shell
 python stravaparse.py -f cyclelog.json -n
 ```
 
