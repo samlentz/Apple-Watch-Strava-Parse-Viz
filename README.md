@@ -63,6 +63,7 @@ pip install matplotlib
 ex:
 ```
 python stravaparse.py -f cyclelog.json -n
+```
 
 # Future work
 
