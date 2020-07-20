@@ -73,5 +73,7 @@ python stravaparse.py -f cyclelog.json -n
 
 -Incorporate more visualizations 
 
+-Add a map tile background (Looking for a solid free api, matplotlib supports backgrounds)
+
 ~-Add support for running through a python command line~ 
  Thanks Zach, can now be run as .py python3
